@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Cards = () => {
+const Cards = (props) => {
   return (
     <div className='card'>
 
@@ -10,7 +10,7 @@ const Cards = () => {
       </div>
 
       <div className='center'>
-        <h3>Amazon <span>5 days ago</span></h3>
+        <h3>{props.company}<span>5 days ago</span></h3>
         <h2>Senior UI/UX Designer</h2>
         <div className='tag'>
           <h4>Part-Time</h4>
