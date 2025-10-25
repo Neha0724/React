@@ -18,6 +18,8 @@
   "homepage": "https://github.com/Neha0724/React#readme",
   "description": "",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "lucide-react": "^0.547.0",
+    "remixicon": "^4.7.0"
   }
 }
